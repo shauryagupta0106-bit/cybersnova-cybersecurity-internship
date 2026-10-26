@@ -49,4 +49,4 @@ This repository is intended for educational and authorized cybersecurity testing
 
 ## Author
 
-Add your preferred professional name and relevant professional links here.
+SHAURYA GUPTA
