@@ -1,0 +1,102 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: results/dirb.txt
+START_TIME: Tue Oct 20 11:02:07 2026
+URL_BASE: http://testasp.vulnweb.com/
+WORDLIST_FILES: /usr/share/seclists/Discovery/Web-Content/raft-small-directories.txt
+
+-----------------
+
+GENERATED WORDS: 20104
+
+---- Scanning URL: http://testasp.vulnweb.com/ ----
+==> DIRECTORY: http://testasp.vulnweb.com/cgi-bin/
+==> DIRECTORY: http://testasp.vulnweb.com/images/
+==> DIRECTORY: http://testasp.vulnweb.com/templates/
+==> DIRECTORY: http://testasp.vulnweb.com/aspnet_client/
+==> DIRECTORY: http://testasp.vulnweb.com/Templates/
+==> DIRECTORY: http://testasp.vulnweb.com/_vti_cnf/
+==> DIRECTORY: http://testasp.vulnweb.com/html/
+==> DIRECTORY: http://testasp.vulnweb.com/Images/
+==> DIRECTORY: http://testasp.vulnweb.com/t/
+==> DIRECTORY: http://testasp.vulnweb.com/avatars/
+==> DIRECTORY: http://testasp.vulnweb.com/jscripts/
+==> DIRECTORY: http://testasp.vulnweb.com/CGI-BIN/
+==> DIRECTORY: http://testasp.vulnweb.com/HTML/
+==> DIRECTORY: http://testasp.vulnweb.com/IMAGES/
+==> DIRECTORY: http://testasp.vulnweb.com/Html/
+==> DIRECTORY: http://testasp.vulnweb.com/Aspnet_client/
+==> DIRECTORY: http://testasp.vulnweb.com/Cgi-bin/
+==> DIRECTORY: http://testasp.vulnweb.com/T/
+==> DIRECTORY: http://testasp.vulnweb.com/TEMPLATES/
+==> DIRECTORY: http://testasp.vulnweb.com/JScripts/
+==> DIRECTORY: http://testasp.vulnweb.com/aspnet_Client/
+==> DIRECTORY: http://testasp.vulnweb.com/Avatars/
+
+---- Entering directory: http://testasp.vulnweb.com/cgi-bin/ ----
++ Remaining scan stats:
+Words: 14964 | Directories: 21
++ Going to next directory.
+
+---- Entering directory: http://testasp.vulnweb.com/images/ ----
++ Going to next directory.
+
+---- Entering directory: http://testasp.vulnweb.com/templates/ ----
++ Remaining scan stats:
+Words: 20098 | Directories: 19
++ Remaining scan stats:
+Words: 20087 | Directories: 19
++ Remaining scan stats:
+Words: 20080 | Directories: 19
++ Remaining scan stats:
+Words: 20075 | Directories: 19
++ Remaining scan stats:
+Words: 20070 | Directories: 19
++ Remaining scan stats:
+Words: 20065 | Directories: 19
++ Going to next directory.
+
+---- Entering directory: http://testasp.vulnweb.com/aspnet_client/ ----
++ Remaining scan stats:
+Words: 20066 | Directories: 18
++ Remaining scan stats:
+Words: 20055 | Directories: 18
++ Remaining scan stats:
+Words: 20040 | Directories: 18
++ Remaining scan stats:
+Words: 20036 | Directories: 18
+==> DIRECTORY: http://testasp.vulnweb.com/aspnet_client/system_web/
+
+---- Entering directory: http://testasp.vulnweb.com/Templates/ ----
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: results/dirb.txt
+START_TIME: Wed Oct 21 07:44:29 2026
+URL_BASE: http://testasp.vulnweb.com/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://testasp.vulnweb.com/ ----
+==> DIRECTORY: http://testasp.vulnweb.com/_vti_cnf/
+==> DIRECTORY: http://testasp.vulnweb.com/aspnet_client/
+==> DIRECTORY: http://testasp.vulnweb.com/avatars/
+==> DIRECTORY: http://testasp.vulnweb.com/cgi-bin/
++ http://testasp.vulnweb.com/cgi-bin/ (CODE:403|SIZE:1233)
+
+(!) FATAL: Too many errors connecting to host
+    (Possible cause: COULDNT RESOLVE HOST)
+
+-----------------
+END_TIME: Wed Oct 21 08:24:14 2026
+DOWNLOADED: 1443 - FOUND: 1

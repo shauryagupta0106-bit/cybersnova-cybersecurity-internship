@@ -1,0 +1,12 @@
+44.238.29.244   STREAM testasp.vulnweb.com
+44.238.29.244   DGRAM  
+44.238.29.244   RAW    
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 3563
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Set-Cookie: ASPSESSIONIDCAASTDSA=DAFGPEFACELHPGEDMOFJIIML; path=/
+X-Powered-By: ASP.NET
+Date: Thu, 22 Oct 2026 10:00:36 GMT
+

@@ -1,0 +1,2 @@
+frame.number,ip.src,ip.dst,http.host,http.request.uri,http.content_type
+1213,10.0.2.15,44.238.29.244,testasp.vulnweb.com,/Login.asp?RetURL=%2FDefault%2Easp%3F,application/x-www-form-urlencoded

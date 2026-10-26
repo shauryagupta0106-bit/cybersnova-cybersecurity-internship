@@ -1,0 +1,52 @@
+CyberSNova Beginner Project 1
+Network Reconnaissance & Service Enumeration
+
+Target: testphp.vulnweb.com
+URL: http://testphp.vulnweb.com/
+
+1. Create the project directory
+mkdir -p ~/SHAURYA_GUPTA_Network_Reconnaissance
+mkdir -p results screenshots notes
+
+2. Check DNS and network
+date -Is
+ip route
+getent ahosts testphp.vulnweb.com
+ping -c 3 -W 3 testphp.vulnweb.com
+
+3. Install and verify tools
+sudo apt update
+sudo apt install -y nmap whatweb netcat-openbsd curl
+nmap --version
+whatweb --version
+nc -h
+curl --version
+
+4. Inspect HTTP
+curl -sS -I --connect-timeout 10 --max-time 20 http://testphp.vulnweb.com/
+
+5. Nmap service enumeration
+nmap -Pn -sV -T3 --top-ports 100 --reason testphp.vulnweb.com
+
+6. Nmap XML output
+nmap -Pn -sV -T3 --top-ports 100 --reason -oX results/nmap_top100.xml testphp.vulnweb.com
+
+7. Optional web port inspection
+nmap -Pn -sV -T3 -p 80,443 --script http-title,http-headers testphp.vulnweb.com
+
+8. WhatWeb fingerprinting
+whatweb --no-errors --open-timeout=10 --read-timeout=15 --max-threads=5 http://testphp.vulnweb.com/
+
+9. Netcat TCP test
+nc -nv -w 5 testphp.vulnweb.com 80 </dev/null
+
+10. Netcat HTTP HEAD request
+printf 'HEAD / HTTP/1.1\r\nHost: testphp.vulnweb.com\r\nConnection: close\r\n\r\n' | nc -nv -w 8 testphp.vulnweb.com 80
+
+11. Review evidence
+find results notes -maxdepth 2 -type f -printf '%p (%s bytes)\n'
+ls -lh results/
+
+Note:
+Commands may be retried when a tool or connection fails. Only claim
+results that are supported by the actual output files and screenshots.

@@ -1,0 +1,10 @@
+frame.number,ip.src,ip.dst,http.host,http.request.method,http.request.uri
+4,10.0.2.15,44.238.29.244,testasp.vulnweb.com,HEAD,/
+668,10.0.2.15,151.101.1.91,detectportal.firefox.com,GET,/success.txt?ipv4
+696,,,detectportal.firefox.com,GET,/success.txt?ipv6
+949,10.0.2.15,44.238.29.244,testasp.vulnweb.com,GET,/
+959,10.0.2.15,44.238.29.244,testasp.vulnweb.com,GET,/styles.css
+963,10.0.2.15,44.238.29.244,testasp.vulnweb.com,GET,/favicon.ico
+964,10.0.2.15,44.238.29.244,testasp.vulnweb.com,GET,/Images/logo.gif
+1166,10.0.2.15,44.238.29.244,testasp.vulnweb.com,GET,/Login.asp?RetURL=%2FDefault%2Easp%3F
+1213,10.0.2.15,44.238.29.244,testasp.vulnweb.com,POST,/Login.asp?RetURL=%2FDefault%2Easp%3F

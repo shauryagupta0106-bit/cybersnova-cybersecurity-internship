@@ -1,0 +1,39 @@
+cgi-bin             [36m (Status: 301)[0m [Size: 158][34m [--> http://testasp.vulnweb.com/cgi-bin/][0m
+images              [36m (Status: 301)[0m [Size: 157][34m [--> http://testasp.vulnweb.com/images/][0m
+templates           [36m (Status: 301)[0m [Size: 160][34m [--> http://testasp.vulnweb.com/templates/][0m
+search.asp          [32m (Status: 200)[0m [Size: 2809]
+logout.asp          [36m (Status: 302)[0m [Size: 132][34m [--> Default.asp][0m
+register.asp        [32m (Status: 200)[0m [Size: 3617]
+login.asp           [32m (Status: 200)[0m [Size: 3194]
+aspnet_client       [36m (Status: 301)[0m [Size: 164][34m [--> http://testasp.vulnweb.com/aspnet_client/][0m
+Templates           [36m (Status: 301)[0m [Size: 160][34m [--> http://testasp.vulnweb.com/Templates/][0m
+db.asp              [32m (Status: 200)[0m [Size: 0]
+_vti_cnf            [36m (Status: 301)[0m [Size: 159][34m [--> http://testasp.vulnweb.com/_vti_cnf/][0m
+html                [36m (Status: 301)[0m [Size: 155][34m [--> http://testasp.vulnweb.com/html/][0m
+Login.asp           [32m (Status: 200)[0m [Size: 3194]
+Search.asp          [32m (Status: 200)[0m [Size: 2809]
+Images              [36m (Status: 301)[0m [Size: 157][34m [--> http://testasp.vulnweb.com/Images/][0m
+t                   [36m (Status: 301)[0m [Size: 152][34m [--> http://testasp.vulnweb.com/t/][0m
+avatars             [36m (Status: 301)[0m [Size: 158][34m [--> http://testasp.vulnweb.com/avatars/][0m
+jscripts            [36m (Status: 301)[0m [Size: 159][34m [--> http://testasp.vulnweb.com/jscripts/][0m
+default.asp         [32m (Status: 200)[0m [Size: 3542]
+CGI-BIN             [36m (Status: 301)[0m [Size: 158][34m [--> http://testasp.vulnweb.com/CGI-BIN/][0m
+DB.asp              [32m (Status: 200)[0m [Size: 0]
+robots.txt          [32m (Status: 200)[0m [Size: 13]
+HTML                [36m (Status: 301)[0m [Size: 155][34m [--> http://testasp.vulnweb.com/HTML/][0m
+IMAGES              [36m (Status: 301)[0m [Size: 157][34m [--> http://testasp.vulnweb.com/IMAGES/][0m
+Html                [36m (Status: 301)[0m [Size: 155][34m [--> http://testasp.vulnweb.com/Html/][0m
+Register.asp        [32m (Status: 200)[0m [Size: 3617]
+Logout.asp          [36m (Status: 302)[0m [Size: 132][34m [--> Default.asp][0m
+Default.asp         [32m (Status: 200)[0m [Size: 3540]
+Aspnet_client       [36m (Status: 301)[0m [Size: 164][34m [--> http://testasp.vulnweb.com/Aspnet_client/][0m
+Cgi-bin             [36m (Status: 301)[0m [Size: 158][34m [--> http://testasp.vulnweb.com/Cgi-bin/][0m
+T                   [36m (Status: 301)[0m [Size: 152][34m [--> http://testasp.vulnweb.com/T/][0m
+TEMPLATES           [36m (Status: 301)[0m [Size: 160][34m [--> http://testasp.vulnweb.com/TEMPLATES/][0m
+JScripts            [36m (Status: 301)[0m [Size: 159][34m [--> http://testasp.vulnweb.com/JScripts/][0m
+SEARCH.asp          [32m (Status: 200)[0m [Size: 2809]
+aspnet_Client       [36m (Status: 301)[0m [Size: 164][34m [--> http://testasp.vulnweb.com/aspnet_Client/][0m
+Avatars             [36m (Status: 301)[0m [Size: 158][34m [--> http://testasp.vulnweb.com/Avatars/][0m
+Robots.txt          [32m (Status: 200)[0m [Size: 13]
+LOGIN.asp           [32m (Status: 200)[0m [Size: 3194]
++ http://testasp.vulnweb.com/cgi-bin/ (CODE:403|SIZE:1233)

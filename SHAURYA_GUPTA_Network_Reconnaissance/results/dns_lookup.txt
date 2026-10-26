@@ -1,0 +1,3 @@
+44.228.249.3    STREAM testphp.vulnweb.com
+44.228.249.3    DGRAM  
+44.228.249.3    RAW    

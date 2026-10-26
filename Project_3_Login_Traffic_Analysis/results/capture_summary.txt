@@ -1,0 +1,33 @@
+File name:           evidence/03_login_session.pcapng
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  nanoseconds (9)
+Packet size limit:   file hdr: (not set)
+Number of packets:   1,230
+File size:           694 kB
+Data size:           652 kB
+Capture duration:    70.433890587 seconds
+Earliest packet time: 2026-10-22 09:21:31.453450277
+Latest packet time:   2026-10-22 09:22:41.887340864
+Data byte rate:      9,266 bytes/s
+Data bit rate:       74 kbps
+Average packet size: 530.61 bytes
+Average packet rate: 17 packets/s
+SHA256:              51790d12d956d2a2238960aa800d2be19e37663e6732ea2f7747777fbcc5f08c
+SHA1:                e078aa56600ab84ecc3c2a1abc298b63e20cf826
+Strict time order:   False
+Capture hardware:    13th Gen Intel(R) Core(TM) i7-13620H (with SSE4.2)
+Capture oper-sys:    Linux 7.1.5+kali-amd64
+Capture application: Dumpcap (Wireshark) 4.6.6
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = eth0
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 262144
+                     Time precision = nanoseconds (9)
+                     Time ticks per second = 1000000000
+                     Time resolution = 0x09
+                     Filter string = tcp port 80 or tcp port 443
+                     Operating system = Linux 7.1.5+kali-amd64
+                     Number of stat entries = 1
+                     Number of packets = 1230

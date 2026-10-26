@@ -1,0 +1,24 @@
+Project: Hidden Directory & File Enumeration
+Target: http://testasp.vulnweb.com/
+Date: 2026-10-21
+
+Path                       | Tool(s)                   | HTTP status   Classification | Notes
+/cgi-bin/                  | Gobuster, Dirsearch, Dirb | 301, 403     | Directory     | Gobuster and Dirsearch reported a redirect to the trailing-slash URL. Dirb also reported HTTP 403 when checking this directory. Access is restricted to the tested request; contents were not verified.
+/templates/                | Gobuster, Dirsearch       | 301          | Directory     | Redirects to the trailing-slash URL. Directory contents and listing permissions were not independently verified.
+/Templates/                | Dirsearch, Gobuster       | 301          | Directory     | Case-variant path returned a redirect. Treat separately from /templates/ only if case-sensitive behavior is confirmed.
+/images/                   | Gobuster, Dirsearch       | 301          | Directory     | Redirects to the trailing-slash URL. No sensitive contents verified.
+/aspnet_client/            | Gobuster, Dirsearch, Dirb | 301          | Directory     | Redirects to the trailing-slash URL. Dirsearch also discovered /aspnet_client/system_web/.
+/aspnet_client/system_web/ | Dirsearch                 | Not provided | Directory     | Discovered during recursive enumeration. The supplied output does not include its HTTP status.
+/_vti_cnf/                 | Gobuster, Dirsearch, Dirb | 301          | Directory     | Redirects to the trailing-slash URL. Potentially worth checking for exposed metadata, but no sensitive files were verified.
+/html/                     | Gobuster, Dirsearc        | 301          | Directory     | Redirects to the trailing-slash URL. Contents were not independently verified.
+/t/                        | Gobuster, Dirsearc        | 301          | Directory     | Redirects to the trailing-slash URL. Contents were not independently verified.
+/T/                        | Gobuster, Dirsearch       | 301          | Directory     | Case-variant path returned a redirect. Case sensitivity and distinct contents were not verified.
+/avatars/                  | Gobuster, Dirb            | 301          | Directory     | Redirects to the trailing-slash URL. No sensitive contents verified.
+/jscripts/                 | Gobuster                  | 301          | Directory     | Redirects to the trailing-slash URL. No sensitive contents verified.
+/search.asp                | Gobuster                  | 200          | File          | ASP endpoint returned HTTP 200. Response size was 2809 bytes. Application behavior and security were not tested.
+/login.asp                 | Gobuster                  | 200          | File          | ASP endpoint returned HTTP 200. Response size was 3194 bytes. Authentication behavior was not tested.
+/register.asp              | Gobuster                  | 200          | File          | ASP endpoint returned HTTP 200. Response size was 3617 bytes. Registration behavior was not tested.
+/logout.asp                | Gobuster                  | 302          | File          | Redirected to Default.asp. Authentication and session behavior were not tested.
+/default.asp               | Gobuster                  | 200          | File          | ASP endpoint returned HTTP 200. Response size was 3542 bytes in one result and 3540 bytes in another. The difference may reflect response variation or request conditions.
+/db.asp                    | Gobuster                  | 200          | File          | Returned HTTP 200 with a response size of 0 bytes. No database contents or sensitive information were verified.
+/robots.txt                | Gobuster                  | 200          | File          | Returned HTTP 200 with a response size of 13 bytes. Contents should be reviewed before drawing conclusions.

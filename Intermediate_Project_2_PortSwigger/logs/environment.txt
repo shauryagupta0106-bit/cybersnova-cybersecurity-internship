@@ -1,0 +1,23 @@
+PortSwigger Web Security Academy Project
+Assessment date: 2026-10-25T04:57:51-04:00
+Operating system:
+PRETTY_NAME="Kali GNU/Linux Rolling"
+NAME="Kali GNU/Linux"
+VERSION_ID="2026.3"
+VERSION="2026.3"
+VERSION_CODENAME=kali-rolling
+ID=kali
+ID_LIKE=debian
+HOME_URL="https://www.kali.org/"
+SUPPORT_URL="https://forums.kali.org/"
+BUG_REPORT_URL="https://bugs.kali.org/"
+ANSI_COLOR="1;31"
+
+Python:
+Python 3.14.7
+
+Burp Suite:
+/usr/bin/burpsuite
+
+Browser:
+/usr/bin/firefox-esr

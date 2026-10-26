@@ -1,0 +1,10 @@
+# Dirsearch started at 2026-10-20 10:33:28 as: ./dirsearch-venv/bin/dirsearch -u http://testasp.vulnweb.com/ -w /usr/share/seclists/Discovery/Web-Content/raft-small-directories.txt --threads=10 --timeout=10 -o results/dirsearch.txt
+301   158B http://testasp.vulnweb.com/cgi-bin  (281ms)  ->  http://testasp.vulnweb.com/cgi-bin/
+301   160B http://testasp.vulnweb.com/templates  (616ms)  ->  http://testasp.vulnweb.com/templates/
+301   157B http://testasp.vulnweb.com/images  (624ms)  ->  http://testasp.vulnweb.com/images/
+301   164B http://testasp.vulnweb.com/aspnet_client  (324ms)  ->  http://testasp.vulnweb.com/aspnet_client/
+301   160B http://testasp.vulnweb.com/Templates  (299ms)  ->  http://testasp.vulnweb.com/Templates/
+301   159B http://testasp.vulnweb.com/_vti_cnf  (337ms)  ->  http://testasp.vulnweb.com/_vti_cnf/
+301   155B http://testasp.vulnweb.com/html  (277ms)  ->  http://testasp.vulnweb.com/html/
+301   152B http://testasp.vulnweb.com/t  (282ms)  ->  http://testasp.vulnweb.com/t/
+301   152B http://testasp.vulnweb.com/T  (270ms)  ->  http://testasp.vulnweb.com/T/
